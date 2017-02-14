@@ -102,9 +102,12 @@ wan't to know more about it, here's its [README](https://github.com/ansible/ansi
 ## Use local testing
 
 Before you commit anything, run the tests locally.
+
   $ ./test/runner/ansible-test integration --docker  centos7
 
-where pip= the name of a module. The tests live under **ansible repo**/test/integration/targets/pip
+where pip= the name of a module.
+
+The tests live under **ansible repo**/test/integration/targets/pip
 
   $ ./test/runner/ansible-test --help
   $ ./test/runner/ansible-test integration --help
