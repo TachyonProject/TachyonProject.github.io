@@ -19,7 +19,7 @@ builds on the foundations that they've started.
 - [Matt Clay](https://github.com/mattclay), [John Barker](https://github.com/gundalow),
   [Toshio Kuratomi](https://github.com/abadger), [Brian Coca](https://github.com/bcoca),
   [Tim Rupp](https://github.com/caphrim007), [Allen Sanabria](https://github.com/linuxdynasty),
-  and the rest of the folks at #ansible-devel for giving me valuable feedback!
+  and the rest of the folks at [#ansible-devel](http://webchat.freenode.net/?channels=ansible-devel) for giving me valuable feedback!
 
 ## Sidebar: If You See Any Errors in This Doc
 Please don't hesitate to [file a bug](https://github.com/infrascloudy/infrascloudy.github.io/issues) at my Github repo. Feel free to submit a pull request too if you like!
