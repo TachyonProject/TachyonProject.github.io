@@ -18,7 +18,6 @@ builds on the foundations that they've started.
 - [Module Development Page](http://docs.ansible.com/ansible/developing_modules.html#testing-modules)
 - [Matt Clay](https://github.com/mattclay), [John Barker](https://github.com/gundalow),
   [Toshio Kuratomi](https://github.com/abadger), [Brian Coca](https://github.com/bcoca),
-  [Tim Rupp](https://github.com/caphrim007), [Allen Sanabria](https://github.com/linuxdynasty),
   and the rest of the folks at [#ansible-devel](http://webchat.freenode.net/?channels=ansible-devel) for giving me valuable feedback!
 - Also a lot of ansible knowledge in [NetworkToCode()#Ansible](https://networktocode.slack.com) On Slack. The signup page is [here](http://slack.networktocode.com/).
 
