@@ -1,10 +1,94 @@
-<html xmlns="http://www.w3.org/1999/xhtml">    
-  <head>      
-    <title>The Tudors</title>      
-    <meta http-equiv="refresh" content="0;URL='http://infrascloudy.linaccess.za.net/'" />    
-  </head>    
-  <body> 
-    <p>This page has moved to a <a href="http://infrascloudy.linaccess.za.net/">
-      InfrasCloudy.linaccess.za.net</a>.</p> 
-  </body>  
-</html>     
+---
+layout: null
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript">
+    var host = "infrascloudy.github.io";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
+    <link rel="canonical" href="https://infrascloudy.github.io" />
+    <meta charset="utf-8">
+    <title>relaxdiego</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Allan Swanepoel">
+
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/assets/css/common.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="post" class="span8 offset2">
+          <div class="page-header">
+            <h2>
+              relaxdiego
+            </h2>
+          </div>
+
+          <h2>about me</h2>
+
+          <ul>
+            <li><a href="/resume">Résumé</a></li>
+            <li><a href="https://github.com/allanice001">GitHub profile</a>
+            <li><a href="https://www.linkedin.com/in/allanice001">LinkedIn profile</a>
+          </ul>
+
+          <h2>Posts</h2>
+          <ul>
+          {% for post in site.posts %}
+            <li>{{ post.date | date_to_string }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
+
+          <p><a href="/rss.xml">RSS feed</a></p>
+
+          <div class="well">
+            Copyright 2017 allanice001. This site is powered by <a href="jekyllrb.com">Jekyll</a> and the awesome folks at <a href="www.github.com">Github</a>.
+          </div>
+        </div>
+      </div>
+    </div> <!-- /container -->
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-91922507-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
