@@ -87,4 +87,29 @@ If not, you probably have some crazy shim-y stuff going on. Fix that before proc
 
 If you want to make this permanent, add the following to your `~/.bash_profile` or `~/.bashrc`:
 
-  source <path to ansible repo>/hacking/env-setup
+    source <path to ansible repo>/hacking/env-setup
+
+## Try The Ansible Module Validator (Linter)
+
+It's like Flake8 for Ansible. From your **ansible repo**, run it with:
+
+    $ test/sanity/validate-modules/validate-modules lib/ansible/modules/core/cloud/amazon
+
+It shouldn't output anything since the amazon core modules are compliant.
+We will see it in a fouler mood later when we write a sample module. If you
+wan't to know more about it, here's its [README](https://github.com/ansible/ansible/tree/devel/test/sanity/validate-modules).
+
+## Use local testing
+
+Before you commit anything, run the tests locally.
+  $ ./test/runner/ansible-test integration --docker  centos7
+
+where pip= the name of a module. The tests live under **ansible repo**/test/integration/targets/pip
+
+  $ ./test/runner/ansible-test --help
+  $ ./test/runner/ansible-test integration --help
+
+Their are many OS supported
+Listed in **ansible repo**/test/runner/completion/docker.txt
+
+## You're Ready to Start Developing!
