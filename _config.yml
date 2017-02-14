@@ -1,0 +1,9 @@
+name: allanice001
+description: Software Development and other stuff.
+url: https://infrascloudy.github.io
+enforce_ssl: infrascloudy.github.io
+permalink: /:year/:month/:title.html
+highlighter: rouge
+markdown: kramdown
+gems:
+  - jekyll-asciidoc
