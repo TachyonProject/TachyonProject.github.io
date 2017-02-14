@@ -113,3 +113,9 @@ Their are many OS supported
 Listed in **ansible repo**/test/runner/completion/docker.txt
 
 ## You're Ready to Start Developing!
+
+Good job! Take a breather, then head on over to
+part 2 to create your very first
+Ansible module.
+Alternatively, you can go back to [the introduction](2017/02/writing-ansible-modules-with-tests.html)
+if you want to jump ahead to other parts.
