@@ -15,6 +15,7 @@ you shouldn't feel safe without it.
 So mastering a testing framework is always top priority.
 
 My preferance is [tox](https://tox.readthedocs.io/en/latest/).
+
 [Nose](https://nose.readthedocs.org/en/latest/) is also on the list, though it may have lost favor in some opensource communities. Its heavily used by the Ansible Community though.
 
 Some things to note in the above are the following:
@@ -26,6 +27,9 @@ Some things to note in the above are the following:
 
 Continuous testing is a very important part of a development workflow and is, I would say, at the same level of importance as continuous integration.
 For Python, I came across [sniffer](https://pypi.python.org/pypi/sniffer) which supported nose out of the box but was configurable enough to run testr and friends too.
+
+With gitlab / git / bitbucket you can implement various forms of automated runners (Travis, pipelines et al).
+These DSLs require some learning, but definitely worth the effort.
 
 ## Monitoring Code Coverage
 
