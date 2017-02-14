@@ -26,7 +26,7 @@ Please don't hesitate to [file a bug](https://github.com/infrascloudy/infrasclou
 
 ## Contents
 
-1. Preparing Your Environment
+1. [Preparing Your Environment](/2017/02/writing-ansible-modules-001.html)
 1. Write Your First Module
 1. Complete the Module
 1. Submitting Code Upstream
