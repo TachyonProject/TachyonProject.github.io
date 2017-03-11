@@ -14,10 +14,10 @@ Never, ever, modify or commit things to devel, always do work in a feature branc
 ## Setting up the repos from forks
 
 ```shell
-export GITHUB_USER={{ your-github-username }}
-git clone git@github.com:$GITHUB_USER/{{ repo }}.git
-cd {{ repo }}
-git remote add upstream https://github.com/infrascloudy/{{ repo }}.git
+export GITHUB_USER=your-github-username
+git clone git@github.com:$GITHUB_USER/REPO_NAME_HERE.git
+cd REPO_NAME_HERE
+git remote add upstream https://github.com/infrascloudy/REPO_NAME_HERE.git
 git fetch --all
 ```
 
